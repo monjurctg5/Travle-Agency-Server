@@ -16,5 +16,11 @@
     "url": "https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-monjurctg5/issues"
   },
   "homepage": "https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-monjurctg5#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongo": "^0.1.0"
+  }
 }
