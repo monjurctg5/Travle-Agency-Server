@@ -61,6 +61,18 @@ async function run() {
     })
 
 
+      app.get('/orders/:email', async(req,res)=>{
+    const email = req.params.email
+    console.log(email)
+    const result = OrdersColection.find({email:email}).toArray((er,result)=>{
+      console.log(er,result)
+      res.send(result)
+
+    })
+   
+  })
+
+
     //delete a service
     app.delete("/services/:id",async(req,res)=>{
       const id = req.params.id
