@@ -44,7 +44,8 @@ async function run() {
       const query = { _id: ObjectId(id) }
       const result = await serviceColection.findOne(query)
       res.send(result)
-      // console.log(result)
+      // console.log(result)h
+      
 
       }
       
